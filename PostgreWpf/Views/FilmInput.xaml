@@ -1,0 +1,22 @@
+﻿<Window x:Class="PostgreWpf.FilmInput"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostgreWpf"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="FilmInput" Height="208.682" Width="201.934" Background="#030A0F">
+    <Grid Margin="0,0,3.2,21">
+        <TextBox Name="TitleField" HorizontalAlignment="Left" Height="23" Margin="68,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox PreviewTextInput="NumberValidationTextBox" Name="BudgetField" HorizontalAlignment="Left" Height="23" Margin="68,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="ScriptField" HorizontalAlignment="Left" Height="23" Margin="68,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox PreviewTextInput="NumberValidationTextBox" Name="DIDField"  HorizontalAlignment="Left" Height="23" Margin="68,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Foreground="white" Content="Title" HorizontalAlignment="Left" Margin="7,11,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="white" Content="Budget" HorizontalAlignment="Left" Margin="5,37,0,0" VerticalAlignment="Top" Height="29" RenderTransformOrigin="0.5,0.5" Width="58"/>
+        <Label Foreground="white" Content="Script" HorizontalAlignment="Left" Margin="5,65,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="white" Content=" DID" HorizontalAlignment="Left" Margin="5,91,0,0" VerticalAlignment="Top"/>
+        <Button Background="#071E2E" Foreground="white" Click="CreateFilm_Clicked" Content="Create" HorizontalAlignment="Left" Margin="95,136,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

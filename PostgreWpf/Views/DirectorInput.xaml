@@ -1,0 +1,21 @@
+﻿<Window x:Class="PostgreWpf.Views.DirectorInput"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostgreWpf.Views"
+        mc:Ignorable="d"
+        Title="DirectorInput" Height="217.169" Width="315.545"
+        WindowStartupLocation="CenterScreen"
+        Background="#030A0F">
+    <Grid Margin="0,0,3.6,1">
+        <TextBox Name="FirstNameField" HorizontalAlignment="Left" Height="23" Margin="163,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="SecondNameField" HorizontalAlignment="Left" Height="23" Margin="163,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Foreground="White" Content="First name" HorizontalAlignment="Left" Margin="64,47,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White" Content="Second name" HorizontalAlignment="Left" Margin="64,73,0,0" VerticalAlignment="Top"/>
+        <Button Background="#071E2E" Foreground="white" Click="CreateDirector_Clicked" Content="Create" HorizontalAlignment="Left" Margin="202,138,0,0" VerticalAlignment="Top" Width="82" Height="29"/>
+        <Label Foreground="White" Content="IsCertified?" HorizontalAlignment="Left" Margin="64,102,0,0" VerticalAlignment="Top"/>
+        <CheckBox Name="IsCertifiedCheckBox" HorizontalAlignment="Left" Margin="163,112,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
