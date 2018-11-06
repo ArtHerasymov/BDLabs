@@ -29,7 +29,10 @@ public class Director
     {
         this.FirstName = GenerateRandomText(10);
         this.SecondName = GenerateRandomText(10);
-        this.isCertified = "TRUE";
+        if (random.NextDouble() >= 0.5)
+            this.isCertified = "TRUE";
+        else
+            this.IsCertified = "FALSE";
     }
 
     private String GenerateRandomText(int length)
