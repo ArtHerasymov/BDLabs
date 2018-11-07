@@ -2,10 +2,8 @@
 ## Ознайомлення з базовими операціями СУБД PostgreSQL
 ## Варіант4
 ![img](https://pp.userapi.com/c847218/v847218029/124098/onSGpAjr3XE.jpg)
-
 # ERD
-![rels](https://ibb.co/efYSOV)
-<img src="https://ibb.co/efYSOV">
+![rels](https://pp.userapi.com/c847218/v847218029/124087/Ohf0ZiPaYGY.jpg)
 # Screenshots
-<img src="https://ibb.co/nkNOVA">
-<img src="https://ibb.co/naGvcq">
+![rels](https://pp.userapi.com/c847218/v847218029/12407e/LeQDZn0R58o.jpg)
+![rels](https://pp.userapi.com/c847218/v847218029/124090/awyqp4AEPIs.jpg)
